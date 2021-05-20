@@ -1,6 +1,10 @@
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://i.pinimg.com/originals/8f/14/57/8f14578ef69a4c53352955d1e072eda6.png);
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+      rgba(13, 66, 109, 0.205),
+      rgba(12, 97, 209, 0.219)
+    ),
+    url("./img/robot.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -9,4 +13,5 @@ body {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }

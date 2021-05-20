@@ -3,8 +3,7 @@ import { io } from "socket.io-client";
 import Peer from "simple-peer";
 
 const SocketContext = createContext();
-
-const socket = io("https://git.heroku.com/domingo-web-chat.git");
+const socket = io("https://domingo-web-app.herokuapp.com");
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
