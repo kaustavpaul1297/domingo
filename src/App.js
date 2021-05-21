@@ -35,13 +35,16 @@ const App = () => {
     <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography variant="h2" align="center" color="textSecondary">
-          Domingo
+          Domingo Video Chat
         </Typography>
       </AppBar>
       <VideoPlayer />
       <Options>
         <Notifications />
       </Options>
+      <footer>
+        &copy; Copyright 2021 by Kaustav Paul
+      </footer>
     </div>
   );
 };
